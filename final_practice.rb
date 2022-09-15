@@ -67,8 +67,12 @@ square(9)
 
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
-def greet_person()
+def greet_person(name1, name2, name3)
+  p "Hello, #{name1} #{name2} #{name3}. We have been trying to reach you about your car's extended warranty."
+end
 
+greet_person("Sarah", "Renee", "Stewart")
+greet_person("Rachel", "Angela", "Wattson")
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
