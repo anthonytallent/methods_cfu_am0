@@ -74,5 +74,13 @@ end
 greet_person("Sarah", "Renee", "Stewart")
 greet_person("Rachel", "Angela", "Wattson")
 # What is the return value of your method?
+
+#"Hello, #{name1} #{name2} #{name3}. We have been trying to reach you about your car's extended warranty."
+
 # How many arguments did you pass your method?
+
+# 2
+
 # What data type was your argument(s)?
+
+#Strings
