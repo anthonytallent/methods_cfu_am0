@@ -11,17 +11,22 @@
 
 
 "Hello World".include?("Hello")
-
+# .include? is asking if the word "Hello" is included in the string, "Hello World."
+#The return value is true.
 
 "Hello World".end_with?("Hello")
+# .end_with? is asking if the string "Hello World" ends with "Hello."
+#The return value is false.
 
 
 "Hello World".end_with?("rld")
-
+# .end_with is asking if the string "Hello World" ends with "rld."
+# The return value is true.
 
 12.even?
-
+# .even asks if the integer is even
+# The return value is true
 
 18.next
-
-
+# .next asks what integer comes next, numerically.
+# The return value is 19.
